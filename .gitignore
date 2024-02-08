@@ -19,3 +19,10 @@ include/vector_tile.pb.h
 coastline
 landcover
 /test.*
+
+# downloaded data
+coastline
+landcover
+/test.*
+data/
+.DS_Store

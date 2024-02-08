@@ -11,6 +11,10 @@
 #include <sys/stat.h>
 #include "helpers.h"
 
+#if defined(__APPLE__)
+#define stat64 stat
+#endif
+
 #ifdef _MSC_VER
 #define stat64 __stat64
 #endif
